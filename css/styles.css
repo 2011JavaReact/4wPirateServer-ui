@@ -100,6 +100,12 @@ the margin or padding of inline elements directly, so we change a to a block typ
 }
 
 /* Pirate List */
+#pirate-list-img {
+    background: url('../img/pirate-ship.jpg') no-repeat center center;
+    min-height: 800px;
+    padding-top: 20px;
+}
+
 #pirate-list-main {
     margin: auto;
     width: 50%;
