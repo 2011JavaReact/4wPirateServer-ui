@@ -102,8 +102,8 @@ the margin or padding of inline elements directly, so we change a to a block typ
 /* Pirate List */
 #pirate-list-img {
     background: url('../img/pirate-ship.jpg') no-repeat center center;
-    min-height: 800px;
-    padding-top: 20px;
+    min-height: 500px;
+    padding: 20px;
 }
 
 #pirate-list-main {
@@ -137,15 +137,71 @@ the margin or padding of inline elements directly, so we change a to a block typ
 }
 
 #pirate-list-main tbody tr {
+    background: #000;
     border-bottom: 1px solid #ddd;
+    color: white;
 }
 
 #pirate-list-main tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
+    color: #000;
 }
 
 #pirate-list-main tbody tr:hover {
     color: #f7c08a;
+}
+
+/* Pirate Form */
+#pirate-form-main {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    background: #4b6085;
+    padding: 20px;
+    color: #fff;
+}
+
+#pirate-form-main .form-wrap {
+    padding: 15px 15px;
+}
+
+#pirate-form-main .form-wrap h1,
+#pirate-form-main .form-wrap p {
+    text-align: center;
+}
+
+#pirate-form-main .form-wrap .form-group {
+    margin-top: 15px;
+}
+
+#pirate-form-main .form-wrap label {
+    display: block;
+}
+
+#pirate-form-main .form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #555 solid 1px;
+}
+
+#pirate-form-main .form-wrap .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: #555 solid 1px;
+    border-radius: 5px;
+}
+
+#pirate-form-main .form-wrap button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#pirate-form-main .form-wrap button:hover {
+    background: #555;
 }
 
 /* Footer */
